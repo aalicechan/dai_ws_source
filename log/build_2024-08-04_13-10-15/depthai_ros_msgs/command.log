@@ -1,0 +1,4 @@
+Invoking command in '/home/alicechan/dai_ws/build/depthai_ros_msgs': CMAKE_PREFIX_PATH=/home/alicechan/git/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/alicechan/dai_ws/build/depthai_ros_msgs
+Invoked command in '/home/alicechan/dai_ws/build/depthai_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/home/alicechan/git/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/alicechan/dai_ws/build/depthai_ros_msgs
+Invoking command in '/home/alicechan/dai_ws/build/depthai_ros_msgs': CMAKE_PREFIX_PATH=/home/alicechan/git/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/alicechan/dai_ws/build/depthai_ros_msgs
+Invoked command in '/home/alicechan/dai_ws/build/depthai_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/home/alicechan/git/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/alicechan/dai_ws/build/depthai_ros_msgs

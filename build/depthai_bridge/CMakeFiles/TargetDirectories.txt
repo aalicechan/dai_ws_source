@@ -1,0 +1,10 @@
+/home/alicechan/dai_ws/build/depthai_bridge/CMakeFiles/uninstall.dir
+/home/alicechan/dai_ws/build/depthai_bridge/CMakeFiles/depthai_bridge_uninstall.dir
+/home/alicechan/dai_ws/build/depthai_bridge/CMakeFiles/depthai_bridge.dir
+/home/alicechan/dai_ws/build/depthai_bridge/CMakeFiles/test.dir
+/home/alicechan/dai_ws/build/depthai_bridge/CMakeFiles/edit_cache.dir
+/home/alicechan/dai_ws/build/depthai_bridge/CMakeFiles/rebuild_cache.dir
+/home/alicechan/dai_ws/build/depthai_bridge/CMakeFiles/list_install_components.dir
+/home/alicechan/dai_ws/build/depthai_bridge/CMakeFiles/install.dir
+/home/alicechan/dai_ws/build/depthai_bridge/CMakeFiles/install/local.dir
+/home/alicechan/dai_ws/build/depthai_bridge/CMakeFiles/install/strip.dir

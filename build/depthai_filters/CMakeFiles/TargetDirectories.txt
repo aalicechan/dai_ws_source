@@ -1,0 +1,10 @@
+/home/alicechan/dai_ws/build/depthai_filters/CMakeFiles/uninstall.dir
+/home/alicechan/dai_ws/build/depthai_filters/CMakeFiles/depthai_filters_uninstall.dir
+/home/alicechan/dai_ws/build/depthai_filters/CMakeFiles/depthai_filters.dir
+/home/alicechan/dai_ws/build/depthai_filters/CMakeFiles/test.dir
+/home/alicechan/dai_ws/build/depthai_filters/CMakeFiles/edit_cache.dir
+/home/alicechan/dai_ws/build/depthai_filters/CMakeFiles/rebuild_cache.dir
+/home/alicechan/dai_ws/build/depthai_filters/CMakeFiles/list_install_components.dir
+/home/alicechan/dai_ws/build/depthai_filters/CMakeFiles/install.dir
+/home/alicechan/dai_ws/build/depthai_filters/CMakeFiles/install/local.dir
+/home/alicechan/dai_ws/build/depthai_filters/CMakeFiles/install/strip.dir
