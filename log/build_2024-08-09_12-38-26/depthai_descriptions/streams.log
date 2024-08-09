@@ -1,0 +1,60 @@
+[0.006s] Invoking command in '/home/alicechan/dai_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=/home/alicechan/git/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/alicechan/dai_ws/src/depthai-ros/depthai_descriptions -DCMAKE_INSTALL_PREFIX=/home/alicechan/dai_ws/install/depthai_descriptions
+[0.072s] -- The C compiler identification is GNU 11.4.0
+[0.106s] -- The CXX compiler identification is GNU 11.4.0
+[0.111s] -- Detecting C compiler ABI info
+[0.153s] -- Detecting C compiler ABI info - done
+[0.157s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.158s] -- Detecting C compile features
+[0.158s] -- Detecting C compile features - done
+[0.160s] -- Detecting CXX compiler ABI info
+[0.207s] -- Detecting CXX compiler ABI info - done
+[0.212s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.212s] -- Detecting CXX compile features
+[0.212s] -- Detecting CXX compile features - done
+[0.214s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.305s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.391s] -- Configuring done
+[0.393s] -- Generating done
+[0.393s] -- Build files have been written to: /home/alicechan/dai_ws/build/depthai_descriptions
+[0.396s] Invoked command in '/home/alicechan/dai_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=/home/alicechan/git/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/alicechan/dai_ws/src/depthai-ros/depthai_descriptions -DCMAKE_INSTALL_PREFIX=/home/alicechan/dai_ws/install/depthai_descriptions
+[0.397s] Invoking command in '/home/alicechan/dai_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=/home/alicechan/git/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/alicechan/dai_ws/build/depthai_descriptions
+[0.419s] Invoked command in '/home/alicechan/dai_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=/home/alicechan/git/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/alicechan/dai_ws/build/depthai_descriptions
+[0.437s] Invoking command in '/home/alicechan/dai_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=/home/alicechan/git/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/alicechan/dai_ws/build/depthai_descriptions
+[0.441s] -- Install configuration: ""
+[0.441s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/launch
+[0.441s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/launch/urdf_launch.py
+[0.442s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf
+[0.442s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/depthai_descr.urdf.xacro
+[0.442s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/base_descr.urdf.xacro
+[0.442s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models
+[0.442s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-SR.stl
+[0.450s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-LITE.stl
+[0.456s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D.stl
+[0.459s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-PRO.stl
+[0.466s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-POE.stl
+[0.474s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-IOT-75.stl
+[0.484s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-LR.stl
+[0.488s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-S2.stl
+[0.494s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-CM4-POE.stl
+[0.510s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-PRO-W.stl
+[0.520s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/include
+[0.520s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/include/base_macro.urdf.xacro
+[0.520s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/include/depthai_macro.urdf.xacro
+[0.520s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/environment/depthai_descriptions.sh
+[0.520s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/environment/depthai_descriptions.dsv
+[0.520s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/ament_index/resource_index/package_run_dependencies/depthai_descriptions
+[0.520s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/ament_index/resource_index/parent_prefix_path/depthai_descriptions
+[0.520s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/environment/ament_prefix_path.sh
+[0.520s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/environment/ament_prefix_path.dsv
+[0.520s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/environment/path.sh
+[0.520s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/environment/path.dsv
+[0.520s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.bash
+[0.520s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.sh
+[0.521s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.zsh
+[0.521s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.dsv
+[0.521s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/package.dsv
+[0.521s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/ament_index/resource_index/packages/depthai_descriptions
+[0.521s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/cmake/depthai_descriptionsConfig.cmake
+[0.521s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/cmake/depthai_descriptionsConfig-version.cmake
+[0.521s] -- Installing: /home/alicechan/dai_ws/install/depthai_descriptions/share/depthai_descriptions/package.xml
+[0.522s] Invoked command in '/home/alicechan/dai_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=/home/alicechan/git/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/alicechan/dai_ws/build/depthai_descriptions

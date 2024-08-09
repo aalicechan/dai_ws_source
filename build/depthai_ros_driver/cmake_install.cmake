@@ -197,7 +197,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/depthai_ros_driver" TYPE PROGRAM FILES "/home/alicechan/dai_ws/src/depthai-ros/depthai_ros_driver/scripts/obj_pub.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/depthai_ros_driver" TYPE PROGRAM FILES
+    "/home/alicechan/dai_ws/src/depthai-ros/depthai_ros_driver/scripts/obj_pub.py"
+    "/home/alicechan/dai_ws/src/depthai-ros/depthai_ros_driver/scripts/RX_OAK_sub_node.py"
+    "/home/alicechan/dai_ws/src/depthai-ros/depthai_ros_driver/scripts/RX_simplified.py"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

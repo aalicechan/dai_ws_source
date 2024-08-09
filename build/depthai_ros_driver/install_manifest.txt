@@ -3,6 +3,7 @@
 /home/alicechan/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/environment/library_path.dsv
 /home/alicechan/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/example_marker_publish.launch.py
 /home/alicechan/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/example_multicam.launch.py
+/home/alicechan/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/RX_OAK_integ.launch.py
 /home/alicechan/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/camera_as_part_of_a_robot.launch.py
 /home/alicechan/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/camera.launch.py
 /home/alicechan/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/rtabmap.launch.py
@@ -34,6 +35,7 @@
 /home/alicechan/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/segmentation.yaml
 /home/alicechan/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/stereo_from_rosbag.yaml
 /home/alicechan/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/low_bandwidth.yaml
+/home/alicechan/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/RX_3cams.yaml
 /home/alicechan/dai_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver.so
 /home/alicechan/dai_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver_sensor_nodes.so
 /home/alicechan/dai_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver_nn_nodes.so
@@ -48,6 +50,8 @@
 /home/alicechan/dai_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages/depthai_ros_driver-2.9.0-py3.10.egg-info/SOURCES.txt
 /home/alicechan/dai_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages/depthai_ros_driver/__init__.py
 /home/alicechan/dai_ws/install/depthai_ros_driver/lib/depthai_ros_driver/obj_pub.py
+/home/alicechan/dai_ws/install/depthai_ros_driver/lib/depthai_ros_driver/RX_OAK_sub_node.py
+/home/alicechan/dai_ws/install/depthai_ros_driver/lib/depthai_ros_driver/RX_simplified.py
 /home/alicechan/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/base_param_handler.hpp
 /home/alicechan/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/stereo_param_handler.hpp
 /home/alicechan/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/nn_param_handler.hpp
