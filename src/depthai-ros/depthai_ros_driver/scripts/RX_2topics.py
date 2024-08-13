@@ -3,6 +3,7 @@
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Image
+from vision_msgs.msg import Detection3DArray
 
 
 class CamInfoSubscriber(Node):
@@ -10,16 +11,23 @@ class CamInfoSubscriber(Node):
     def __init__(self):
         super().__init__('cam_info_subscriber')
         
-        self.subscription = self.create_subscription(
+        self.create_subscription(
             Image,
             '/oak/rgb/image_raw',
             self.listener_callback_rgb_raw,
             10)
-
-        self.subscription  # prevent unused variable warning
+        
+        self.create_subscription(
+            Detection3DArray,
+            '/oak/nn/spatial_detections',
+            self.listener_callback_nn,
+            10)
 
     def listener_callback_rgb_raw(self, msg):
         self.get_logger().info('Received RGB image raw')
+
+    def listener_callback_nn(self, msg):
+        self.get_logger().info('Received spatial detections')
 
 
 def main(args=None):

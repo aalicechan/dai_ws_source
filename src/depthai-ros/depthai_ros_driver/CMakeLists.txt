@@ -150,7 +150,8 @@ install(
   PROGRAMS
   scripts/obj_pub.py
   scripts/RX_OAK_sub_node.py
-  scripts/RX_simplified.py
+  scripts/RX_1topic.py
+  scripts/RX_2topics.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

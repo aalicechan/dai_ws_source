@@ -4,10 +4,13 @@ import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Image
 from sensor_msgs.msg import Imu
+from sensor_msgs.msg import PointCloud2
 from vision_msgs.msg import Detection3DArray
 from sensor_msgs.msg import CameraInfo
 from sensor_msgs.msg import CompressedImage
 from theora_image_transport.msg import Packet
+from rclpy.qos import QoSProfile, ReliabilityPolicy, DurabilityPolicy, HistoryPolicy
+
 
 
 class CamInfoSubscriber(Node):
@@ -15,86 +18,97 @@ class CamInfoSubscriber(Node):
     def __init__(self):
         super().__init__('cam_info_subscriber')
 
-        self.oak_subscriptions = []
+        # Define a QoS profile with RELIABLE reliability policy
+        qos_profile = QoSProfile(
+            reliability=ReliabilityPolicy.BEST_EFFORT,
+            durability=DurabilityPolicy.VOLATILE,
+            history=HistoryPolicy.KEEP_LAST, # keep the lastest 10
+            depth=10  # max number of msg stored in a subscription
+        )
 
-        self.oak_subscriptions.append(self.create_subscription(
+        self.create_subscription(
             Imu,
             '/oak/imu/data',
             self.listener_callback_imu,
-            10))
+            10)
         
-        self.oak_subscriptions.append(self.create_subscription(
+        self.create_subscription(
+            PointCloud2,
+            '/oak/points',
+            self.listener_callback_points,
+            qos_profile)
+        
+        self.create_subscription(
             Detection3DArray,
             '/oak/nn/spatial_detections',
             self.listener_callback_nn,
-            10))
+            10)
         
-        self.oak_subscriptions.append(self.create_subscription(
+        self.create_subscription(
             CameraInfo,
             '/oak/rgb/camera_info',
             self.listener_callback_rgb_cam_info,
-            10))
+            10)
         
-        self.oak_subscriptions.append(self.create_subscription(
+        self.create_subscription(
             Image,
             '/oak/rgb/image_raw',
             self.listener_callback_rgb_raw,
-            10))
+            10)
         
-        self.oak_subscriptions.append(self.create_subscription(
+        self.create_subscription(
             CompressedImage,
             '/oak/rgb/image_raw/comporessed',
             self.listener_callback_rgb_c,
-            10))
+            10)
         
-        self.oak_subscriptions.append(self.create_subscription(
+        self.create_subscription(
             CompressedImage,
             '/oak/rgb/image_raw/comporessedDepth',
             self.listener_callback_rgb_cd,
-            10))
+            10)
         
-        self.oak_subscriptions.append(self.create_subscription(
+        self.create_subscription(
             Packet,
             '/oak/rgb/image_raw/theora',
             self.listener_callback_rgb_theora,
-            10))
+            10)
         
-        self.oak_subscriptions.append(self.create_subscription(
+        self.create_subscription(
             CameraInfo,
             '/oak/stereo/camera_info',
             self.listener_callback_stereo_cam_info,
-            10))
+            10)
         
-        self.oak_subscriptions.append(self.create_subscription(
+        self.create_subscription(
             Image,
             '/oak/stereo/image_raw',
             self.listener_callback_stereo_raw,
-            10))
+            10)
         
-        self.oak_subscriptions.append(self.create_subscription(
+        self.create_subscription(
             CompressedImage,
             '/oak/stereo/image_raw/comporessed',
             self.listener_callback_stereo_c,
-            10))
+            10)
         
-        self.oak_subscriptions.append(self.create_subscription(
+        self.create_subscription(
             CompressedImage,
             '/oak/stereo/image_raw/comporessedDepth',
             self.listener_callback_stereo_cd,
-            10))
+            10)
         
-        self.oak_subscriptions.append(self.create_subscription(
+        self.create_subscription(
             Packet,
             '/oak/stereo/image_raw/theora',
             self.listener_callback_stereo_theora,
-            10))
-
-
-        self.oak_subscriptions  # prevent unused variable warning
-
+            10)
 
     def listener_callback_imu(self, msg):
         self.get_logger().info('Received IMU data')
+
+    def listener_callback_points(self, msg):
+        self.get_logger().info('Received point cloud data')
 
     def listener_callback_nn(self, msg):
         self.get_logger().info('Received NN spatial detections')
