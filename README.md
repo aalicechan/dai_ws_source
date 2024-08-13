@@ -1,5 +1,8 @@
 # dai_ws_source
 
+*** files starting with RX_ are files written for RobotX
+
+
 Follow this link: https://docs.luxonis.com/software/ros/depthai-ros/build/  
 
 Change the source code according to the errors shown when built 
